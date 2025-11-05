@@ -44,8 +44,8 @@ const Navbar = () => {
             <div className=' w-[30%] flex justify-end gap-12 cursor-pointer'>
                 <button className=' px-10 py-1 border rounded-2xl cursor-pointer'>Login</button>
                 <div className=' relative'>
-                    <img src={carticon} alt="cart" width={40} />
-                    <p className=' absolute bottom-7 left-6 bg-red-500 rounded-full px-2 text-white'>0</p>
+                    <img src={carticon} alt="cart" width={35} />
+                    <p className=' text-sm absolute bottom-6 left-6 bg-red-500 rounded-full px-1.5 text-white'>0</p>
                 </div>
             </div>
         </div>
